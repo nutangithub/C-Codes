@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter a number:"<<endl;
+    cin>>n;
+    int i,j,k;
+
+    for(k=n;k>=1;k--){
+      for(i=1;i<=k;i++){
+        for(j=1;j<=1;j++){
+            cout<<i<<" ";
+        }
+    }
+    cout<<endl;
+}
+    return 0;
+}
+
